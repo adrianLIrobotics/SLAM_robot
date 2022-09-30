@@ -11,12 +11,16 @@ It uses ROS and Arduino Mega alongside a laptop as the main computational machin
 
 The project was developed under **ROS Hydro Ubuntu** distribution **12.04 LTS**. This is now an old version but porting to ROS Melodic and ROS 2 is in roadmap for the near future.
 
+### ROS Packages used:
+
+* This project uses the ROS 1 Navigation stack under GMapping and AMCL.
+* communication between Arduino Mega and ROS is establish using [rosserial](http://wiki.ros.org/rosserial_arduino)
+
 ```mermaid
 graph TD;
   Kinect-->depthimage_to_laserscan
   depthimage_to_laserscan-->navigation
   depthimage_to_laserscan-->gmapping
-
 ```
 
 depthimage_to_laserscan 
