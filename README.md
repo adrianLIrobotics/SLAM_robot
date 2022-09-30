@@ -27,7 +27,9 @@ graph TD;
   2DMap-->moveBase
   gmapping-->2DPoseEstimation
   2DPoseEstimation-->moveBase
-  navigation-->cmd_vel
+  ArduinoOdomSource-->moveBase
+  moveBase-->cmd_vel
+
 ```
 
 depthimage_to_laserscan 
