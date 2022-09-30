@@ -40,7 +40,13 @@ graph TD;
   ArduinoOdomSource-->moveBase
 ```
 
+Example of RVIZ window running AMCL with costmap and 2d goal set.
+
 ![](https://user-images.githubusercontent.com/26432703/193227029-7cd62050-a7ac-4d19-9a58-1886f0a40c9c.png)
+
+For testing demostration, here is a video of remote controlling the robot and mapping generation SLAM process.
+
+![](https://www.youtube.com/watch?v=j8H6GVUlBbM)
 
 ### Launching the system configuration.
 
