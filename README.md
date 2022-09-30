@@ -24,7 +24,7 @@ All the 3D dwp files are uploaded for simulating the robot. Also, urdf version f
 The robot is a differential drive platform with two caster wheels and space for a laptop machine to be placed on top of the body.
 
 
-[<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg" width="50%">](https://github.com/adrianLIrobotics/Victoria_SLAM_robot/blob/master/img/robot.png?raw=true)
+![](https://github.com/adrianLIrobotics/Victoria_SLAM_robot/blob/master/img/robot.png?raw=true)
 
 
 The robot was built under Arduino technology. To control the DC motors, Adafruit motor shield was used and the available library.
@@ -48,8 +48,7 @@ Example of RVIZ window running AMCL with costmap and 2d goal set.
 
 For testing demostration, here is a video of remote controlling the robot and mapping generation SLAM process.
 
-<video src=https://www.youtube.com/watch?v=j8H6GVUlBbM width=180/>
-[![Watch the video]](https://www.youtube.com/watch?v=j8H6GVUlBbM)
+https://www.youtube.com/watch?v=j8H6GVUlBbM
 
 ### Launching the system configuration.
 
