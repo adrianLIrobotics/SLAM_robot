@@ -23,6 +23,9 @@ graph TD;
   Kinect-->depthimage_to_laserscan
   depthimage_to_laserscan-->navigation
   depthimage_to_laserscan-->gmapping
+  gmapping-->2DMap
+  gmapping-->2DPoseEstimation
+  navigation-->cmd_vel
 ```
 
 depthimage_to_laserscan 
