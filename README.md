@@ -46,6 +46,7 @@ Example of RVIZ window running AMCL with costmap and 2d goal set.
 
 For testing demostration, here is a video of remote controlling the robot and mapping generation SLAM process.
 
+<video src=https://www.youtube.com/watch?v=j8H6GVUlBbM width=180/>
 [![Watch the video]](https://www.youtube.com/watch?v=j8H6GVUlBbM)
 
 ### Launching the system configuration.
