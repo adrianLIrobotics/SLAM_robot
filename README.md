@@ -7,3 +7,5 @@
 
 This is the code for programming Victoria the Robot with SLAM based capabilities. 
 It uses ROS and Arduino Mega.
+
+![](https://user-images.githubusercontent.com/26432703/193227029-7cd62050-a7ac-4d19-9a58-1886f0a40c9c.png)
