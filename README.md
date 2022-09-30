@@ -13,3 +13,7 @@ It uses ROS and Arduino Mega alongside a laptop as the main computational machin
 ```
 roslaunch Victoria robot_config.launch 
 ```
+
+```
+roslaunch Victoria slam.launch 
+```
