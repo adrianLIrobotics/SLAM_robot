@@ -14,7 +14,9 @@ The project was developed under **ROS Hydro Ubuntu** distribution **12.04 LTS**.
 ### ROS Packages used:
 
 * This project uses the ROS 1 Navigation stack under GMapping and AMCL.
-* communication between Arduino Mega and ROS is establish using [rosserial](http://wiki.ros.org/rosserial_arduino)
+* Communication between Arduino Mega and ROS is establish using [rosserial](http://wiki.ros.org/rosserial_arduino).
+* Depthimage_to_laserscan: this will provide a "fake" laser readings as the 3D point cloud provide by kinect will be cut by a horizontal plane converting the point cloud to a 2D laser ROS type.
+* The robot is controled using remote control with [teleop_twist_keyboard](http://wiki.ros.org/teleop_twist_keyboard).
 
 ```mermaid
 graph TD;
