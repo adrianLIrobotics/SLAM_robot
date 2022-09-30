@@ -28,7 +28,7 @@ graph TD;
   2DPoseEstimation-->moveBase
   ArduinoOdomSource-->moveBase
   moveBase-->cmd_vel
-  cmd_vel-->baseController
+  cmd_vel-->ArduinoBaseController
 ```
 
 depthimage_to_laserscan 
