@@ -5,6 +5,7 @@
 ![](https://img.shields.io/badge/NAVIGATION_STACK-orange?style=for-the-badge)
 ![](https://img.shields.io/badge/AMLC-green?style=for-the-badge)
 
+### Introduction:
 This is the code for programming Victoria Robot with SLAM based capabilities. 
 It uses ROS and Arduino Mega alongside a laptop as the main computational machine. The robot works with a Kinect 360 camera which has ROS driver support.
 
