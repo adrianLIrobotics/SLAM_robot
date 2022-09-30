@@ -25,6 +25,8 @@ The robot is a differential drive platform with two caster wheels and space for 
 
 ![](https://github.com/adrianLIrobotics/Victoria_SLAM_robot/blob/master/img/robot.png?raw=true)
 
+The robot was built under Arduino technology. To control the DC motors, Adafruit motor shield was used and the available library.
+
 ### ROS & Arduino flow of control:
 
 ```mermaid
