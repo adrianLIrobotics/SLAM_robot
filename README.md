@@ -18,6 +18,8 @@ The project was developed under **ROS Hydro Ubuntu** distribution **12.04 LTS**.
 * Depthimage_to_laserscan: this will provide a "fake" laser readings as the 3D point cloud provide by kinect will be cut by a horizontal plane converting the point cloud to a 2D laser ROS type.
 * The robot is controled using remote control with [teleop_twist_keyboard](http://wiki.ros.org/teleop_twist_keyboard).
 
+### ROS & Arduino flow of control:
+
 ```mermaid
 graph TD;
   Kinect-->depthimage_to_laserscan
@@ -30,8 +32,6 @@ graph TD;
   moveBase-->cmd_vel
   cmd_vel-->ArduinoBaseController
 ```
-
-depthimage_to_laserscan 
 
 ![](https://user-images.githubusercontent.com/26432703/193227029-7cd62050-a7ac-4d19-9a58-1886f0a40c9c.png)
 
