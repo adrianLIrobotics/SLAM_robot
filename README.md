@@ -8,6 +8,16 @@
 This is the code for programming Victoria Robot with SLAM based capabilities. 
 It uses ROS and Arduino Mega alongside a laptop as the main computational machine.
 
+```mermaid
+graph TD;
+  Kinect-->depthimage_to_laserscan
+  depthimage_to_laserscan-->navigation
+  depthimage_to_laserscan-->gmapping
+
+```
+
+depthimage_to_laserscan 
+
 ![](https://user-images.githubusercontent.com/26432703/193227029-7cd62050-a7ac-4d19-9a58-1886f0a40c9c.png)
 
 ```
