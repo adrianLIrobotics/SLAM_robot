@@ -24,7 +24,9 @@ graph TD;
   depthimage_to_laserscan-->navigation
   depthimage_to_laserscan-->gmapping
   gmapping-->2DMap
+  2DMap-->moveBase
   gmapping-->2DPoseEstimation
+  2DPoseEstimation-->moveBase
   navigation-->cmd_vel
 ```
 
