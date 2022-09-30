@@ -21,7 +21,6 @@ The project was developed under **ROS Hydro Ubuntu** distribution **12.04 LTS**.
 ```mermaid
 graph TD;
   Kinect-->depthimage_to_laserscan
-  depthimage_to_laserscan-->navigation
   depthimage_to_laserscan-->gmapping
   gmapping-->2DMap
   2DMap-->moveBase
@@ -29,7 +28,7 @@ graph TD;
   2DPoseEstimation-->moveBase
   ArduinoOdomSource-->moveBase
   moveBase-->cmd_vel
-
+  cmd_vel-->baseController
 ```
 
 depthimage_to_laserscan 
