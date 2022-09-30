@@ -35,6 +35,10 @@ graph TD;
 
 ![](https://user-images.githubusercontent.com/26432703/193227029-7cd62050-a7ac-4d19-9a58-1886f0a40c9c.png)
 
+### Launching the system configuration.
+
+Make sure to source both the workspace "catkin" and the ros installation under /opt/ros/
+
 ```
 roslaunch Victoria robot_config.launch 
 ```
@@ -42,3 +46,5 @@ roslaunch Victoria robot_config.launch
 ```
 roslaunch Victoria slam.launch 
 ```
+
+Rviz will be automatically iniciated both map visualization and costmap if AMCL is active.
