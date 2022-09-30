@@ -23,7 +23,9 @@ The project was developed under **ROS Hydro Ubuntu** distribution **12.04 LTS**.
 All the 3D dwp files are uploaded for simulating the robot. Also, urdf version for ROS was generated to visualice the robot in RVIZ.
 The robot is a differential drive platform with two caster wheels and space for a laptop machine to be placed on top of the body.
 
-![](https://github.com/adrianLIrobotics/Victoria_SLAM_robot/blob/master/img/robot.png?raw=true)
+
+[<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg" width="50%">](https://github.com/adrianLIrobotics/Victoria_SLAM_robot/blob/master/img/robot.png?raw=true)
+
 
 The robot was built under Arduino technology. To control the DC motors, Adafruit motor shield was used and the available library.
 
